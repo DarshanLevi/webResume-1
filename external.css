@@ -73,13 +73,14 @@ span {
 
 @media (max-width:605px ) {
   .box {
-    font-size: 55%;
+    font-size: 60%;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
   }
   .hero {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 55%;
+
   }
   .full-body {
     display: unset;
@@ -98,12 +99,13 @@ span {
     display: grid;
     justify-content: center;
     align-items: center;
+    font-size: 9.5px;
   }
 
   .title h1 {
     font-size: 16px;
   }
   .project-list {
-    font-size: 55%;
+    font-size: 60%;
   }
 }
