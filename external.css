@@ -21,6 +21,11 @@ html {
   align-items: center;
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
 .personal-details {
   display: grid;
   justify-content: center;
@@ -29,9 +34,12 @@ html {
 
 .personal-details ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   line-height: 110%;
-  padding: 0;
-  margin-top: 15%;
+  padding-left: 0px;
 }
 
 .full-body {
@@ -43,9 +51,11 @@ html {
 
 .title img {
   height: 100px;
-  width: 113px;
+  width: 106px;
   border-radius: 50%;
   zoom: 1.7;
+  margin-top: -2px;
+  margin-bottom: 10px;
 }
 
 .summary {
@@ -59,8 +69,16 @@ html {
   line-height: 200%;
 }
 
+.project-list {
+  padding-right: 40%;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+}
+
 h2 {
-  color: aquamarine;
+  color: rgb(127, 204, 255);
 }
 
 h3 {
@@ -68,8 +86,10 @@ h3 {
 }
 
 span {
-  color: rgb(157, 86, 224);
+  color: rgb(228, 169, 129);
 }
+ 
+/* responsive for mobiles */
 
 @media (max-width:605px ) {
   .box {
@@ -79,9 +99,7 @@ span {
     display: flex;
     flex-direction: column;
   }
-  .hero {
-
-  }
+  
   .full-body {
     display: unset;
   }
@@ -93,12 +111,10 @@ span {
   .title img {
     height: 40px;
     width: 45px;
+    margin-bottom: 2px;
   }
 
   .personal-details {
-    display: grid;
-    justify-content: center;
-    align-items: center;
     font-size: 9.5px;
   }
 
