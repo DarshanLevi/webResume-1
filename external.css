@@ -9,11 +9,10 @@ html {
   color: rgb(248, 252, 255);
 }
 
-/* .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.full-body {
+  padding: 2%;
+  padding-left: 1%;
+}
 
 .title {
   display: grid;
@@ -70,7 +69,7 @@ html {
 }
 
 .project-list {
-  padding-right: 40%;
+  padding-right: 33%;
 }
 
 h1{
@@ -102,7 +101,9 @@ span {
   
   .full-body {
     display: unset;
-  }
+    }
+                          
+
   .summary .para {
     margin-top: 0%;
     font-size: 9.6px;
