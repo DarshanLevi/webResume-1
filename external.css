@@ -46,6 +46,7 @@ html {
   column-gap: 10em;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 0fr 1fr;
+
 }
 
 .title img {
@@ -63,7 +64,7 @@ html {
 }
 
 .para {
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: large;
   line-height: 200%;
 }
